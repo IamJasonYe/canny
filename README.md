@@ -24,3 +24,4 @@ This is a project based on the lecture, *Digital System and Design* , by Prof. W
 
 ## Modules and Interfaces
 
+<img src="/img">
