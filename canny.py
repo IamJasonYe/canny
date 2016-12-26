@@ -28,5 +28,25 @@ def main():
     im_gradient = Image.fromarray( np.uint8(255-np.clip(gradient_norm * 255,200,255))).transpose(Image.FLIP_TOP_BOTTOM)
     im_gradient.show()
     np.NAN
+
+def get_direction(dy, dx):
+    pass
+
+def clip(gradient_norm, threshold):
+    for x in np.nditer(gradient_norm, op_flags=['readwrite']):
+        if x >= threshold:
+            x[...] = 255
+        else:
+            x[...] = 0
+    return gradient_norm 
+def test():
+    a = np.array([[1.0, 2.0],[255.5, 256.2]]).astype(np.uint8)
+    im = Image.fromarray(a)
+    for x in np.nditer(a, op_flags=['readwrite']):
+        print x
+    #im.show()
+
+
 if __name__ == "__main__":
-	main()
+    main()
+#    test()
