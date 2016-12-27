@@ -6,9 +6,10 @@ This is a project based on the lecture, *Digital System and Design* , by Prof. W
 ## TODO List
 
 - [x] Analyze the needs and the features of the project.
-- [ ] Devide the module and interfaces based on above.
-- [ ]  Write the documentations. 
-- [ ] Implement the code
+- [x] Devide the module and interfaces based on above.
+- [x]  Write the documentations. 
+- [x] Implement the software simulation
+- [ ] Implement the hardware
 
 ## Needs and features
 ### Needs
@@ -22,6 +23,16 @@ This is a project based on the lecture, *Digital System and Design* , by Prof. W
 1. It runs on FPGA for evaluating, thus it should be controllable for playing and pausing the video.
 2. It could see the difference between original source and the output source.
 
-## Modules and Interfaces
+### Result of simulation
+![original](https://raw.githubusercontent.com/JasOnRadC1iFfe/canny_edgeDetector/master/lenna.png  "Original Lenna.png")
 
-<img src="/img">
+![gaussian](https://raw.githubusercontent.com/JasOnRadC1iFfe/canny_edgeDetector/master/gaussian.png  "Gaussian filterd, r = 3")
+
+![Gradient](https://raw.githubusercontent.com/JasOnRadC1iFfe/canny_edgeDetector/master/gradient.png  "gradient")
+
+![NMS](https://raw.githubusercontent.com/JasOnRadC1iFfe/canny_edgeDetector/master/nms.png  "NMS")
+
+![Thresholding](https://raw.githubusercontent.com/JasOnRadC1iFfe/canny_edgeDetector/master/thresholding.png  "Thresholding, th(low) =, th(high)= ")
+
+
+

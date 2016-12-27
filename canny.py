@@ -12,7 +12,7 @@ def main():
     im.show()
     width, height = im.size
     # Gaussian Filtering
-    im_gaussian = im.filter(ImageFilter.GaussianBlur(radius=2))
+    im_gaussian = im.filter(ImageFilter.GaussianBlur(radius=3))
     im_gaussian.show()
     # Gradient Calculation
     p = np.asanyarray(im_gaussian).astype(np.uint8)
