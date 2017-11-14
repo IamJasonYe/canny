@@ -1,4 +1,4 @@
-# Canny_edgeDetector
+# Canny Edge Detector
 ## About the project 
 
 This is a project based on the lecture, *Digital System and Design* , by Prof. Wang. It aims at implementing a hardware architecture to boost the speed of computation by parallel design and some tricks of optimization to achieve the real-time video analysis goal. 
